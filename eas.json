@@ -1,0 +1,24 @@
+{
+    "build": {
+        "preview": {
+            "android": {
+                "buildType": "apk"
+            }
+        },
+        "preview2": {
+            "android": {
+                "gradleCommand": ":app:assembleRelease"
+            }
+        },
+        "preview3": {
+            "developmentClient": true
+        },
+        "production": {
+            "env": {
+                "REACT_APP_CLERK_PUBLISHABLE_KEY": "pk_test_dG91Y2hpbmctZWVsLTcxLmNsZXJrLmFjY291bnRzLmRldiQ",
+                "CLERK_PUBLISHABLE_KEY": "pk_test_dG91Y2hpbmctZWVsLTcxLmNsZXJrLmFjY291bnRzLmRldiQ",
+                "EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY": "pk_test_dG91Y2hpbmctZWVsLTcxLmNsZXJrLmFjY291bnRzLmRldiQ"
+            }
+        }
+    }
+}
