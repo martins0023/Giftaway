@@ -21,7 +21,8 @@ Understanding of different screens available
 
 
 
-# Splash screen it will come for the first 5 second starting the application and then will disappear after that On the same screen, we will have an image and ActivityIndicator component. We will use a setTimeout function to manage the screen visibility. This setTimeout will call a function after 5 seconds which will check for the login session in AsyncStorage to store the session.
+# Splash screen 
+it will come for the first 5 second starting the application and then will disappear after that On the same screen, we will have an image and ActivityIndicator component. We will use a setTimeout function to manage the screen visibility. This setTimeout will call a function after 5 seconds which will check for the login session in AsyncStorage to store the session.
 
 ## Overview
 Giftaway thrash is an app that lets you give out your unwanted used items to users that are interested or need to make use of it.
@@ -44,29 +45,37 @@ Here are the different features that are available and will be available in futu
 
 
 
-# Splash screen it will come for the first 5 second starting the application and then will disappear after that On the same screen, we will have an image and ActivityIndicator component. We will use a setTimeout function to manage the screen visibility. This setTimeout will call a function after 5 seconds which will check for the login session in AsyncStorage to store the session.
+# Splash screen 
+it will come for the first 5 second starting the application and then will disappear after that On the same screen, we will have an image and ActivityIndicator component. We will use a setTimeout function to manage the screen visibility. This setTimeout will call a function after 5 seconds which will check for the login session in AsyncStorage to store the session.
 ![PRONOUNS](https://github.com/martins0023/Giftaway/assets/69491293/8e37397d-28d3-44d3-bc7b-932e72e994df)
 
 
-# Welcome screen the welcoming screen comes after the splash  screen timer has expired, the welcoming page serves as a redirection for the splash screen expiration. 
+# Welcome screen 
+the welcoming screen comes after the splash  screen timer has expired, the welcoming page serves as a redirection for the splash screen expiration. 
 ![get started](https://github.com/martins0023/Giftaway/assets/69491293/fcf22fb4-0da8-4178-9571-d57a2f0ca801)
 
-# Pronoun screen the pronoun screen comes right after the welcome screen where the user choose the type of gender they are
+# Pronoun screen 
+the pronoun screen comes right after the welcome screen where the user choose the type of gender they are
 ![qPRONOUNS](https://github.com/martins0023/Giftaway/assets/69491293/de277e76-6241-4f04-b2f5-0e1067fc7d87)
 
-# Interest screen users are allowed to select their interests for the type of feeds they want to be receiving
+# Interest screen 
+users are allowed to select their interests for the type of feeds they want to be receiving
 ![INTEREST DEFAULT](https://github.com/martins0023/Giftaway/assets/69491293/9510c433-138e-4254-ae7e-7e65a32ef8e2)
 
-# Create account the register screen has several inputs for collecting user info (with basic empty field checks) and a button trigger to the login page.
+# Create account 
+the register screen has several inputs for collecting user info (with basic empty field checks) and a button trigger to the login page.
 ![CREATE ACCOUNT](https://github.com/martins0023/Giftaway/assets/69491293/3f223583-0e77-4fad-8151-e33581119183)
 
-# Login screen the login screen has 2 inputs for the user Email and Password (with basic empty field checks) and a button trigger to the register page
+# Login screen 
+the login screen has 2 inputs for the user Email and Password (with basic empty field checks) and a button trigger to the register page
 ![CREATE ACCOUNT 2](https://github.com/martins0023/Giftaway/assets/69491293/db1c457f-a863-4f93-913c-a78f0e5518a2)
 
-# Home screen It is the landing screen after login or from the Register Screen directly just in case the user has already logged in. This is the feed screen that consists of all newly and all available Thrash Giveaways a user wants and where every user can see each giveaway they’re interested to take or have.  It also has a filter bar for each any user interests. The NavBar also comes in once the app icon is clicked on the top left bar. In the feed page there’s also the countdown for when the giveaway posted will be over.
+# Home screen 
+It is the landing screen after login or from the Register Screen directly just in case the user has already logged in. This is the feed screen that consists of all newly and all available Thrash Giveaways a user wants and where every user can see each giveaway they’re interested to take or have.  It also has a filter bar for each any user interests. The NavBar also comes in once the app icon is clicked on the top left bar. In the feed page there’s also the countdown for when the giveaway posted will be over.
 ![HOME](https://github.com/martins0023/Giftaway/assets/69491293/f849c38a-8a00-4549-a029-bd900d0c1cce)
 
-# Upload Giveaway screen a user gets to upload and give details about the type of thrash they're giving out.
+# Upload Giveaway 
+screen a user gets to upload and give details about the type of thrash they're giving out.
 ![Add photos](https://github.com/martins0023/Giftaway/assets/69491293/b979d8d4-12a5-4388-b07e-12e1ef749eff)
 
 ## Description and countdown tab pages
@@ -76,7 +85,7 @@ Here are the different features that are available and will be available in futu
 Automatically every user uploading each thrash has a set limit of 7days before the giveaway runs out.
 
 #####################################################
-##Understanding of Different Navigator used for the Login Signup
+## Understanding of Different Navigator used for the Login Signup
 To see how we’ve used the different navigators to arrange the above-mentioned screens. We made use of three navigators in this project:
 **Stack Navigator was used to navigate between Auth Screens (Login and SignUp) and also for the internal navigation of Home or Setting screen
 **Drawer Navigator was used to set up the Home Screen, About screen and Logout Screen.
